@@ -18,7 +18,7 @@
 .nav {
   border: 1px solid black;
   width: 100%;
-  height: 50px;
+  height: 10%;
   background-color: gray;
   font-size: 20px;
 }
@@ -34,7 +34,7 @@ li {
 
 li a {
   display: block;
-  padding: 12px;
+  padding: 20px 12px;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ li a:hover {
 
 .intro-section {
   text-align: center;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,22 +69,128 @@ li a:hover {
   padding: 5px;
 }
 
+.about-me-section {
+}
+
 .about-me-section h1 {
   text-align: center;
+  font-size: 3.8rem;
+  margin: 1rem 0;
+}
+
+.line {
+  height: 10px;
+  width: 100px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.about-me {
+  width: 40%;
+  background-color: lightblue;
+}
+
+.about-me h2 {
+  font-size: 2.8rem;
+}
+
+.about-me p {
+  margin: 1rem;
+  font-size: 1.9rem;
+}
+
+.about-me a {
+  font-size: 1.5rem;
 }
 
 .about {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem;
 }
 
 .profile-img img {
-  height: 200px;
-  width: 200px;
+  height: 450px;
+  width: 350px;
+}
+
+.my-skills-section {
+  padding: 2rem;
+}
+
+.my-skills-section h1 {
+  text-align: center;
+  font-size: 3.8rem;
+  margin: 1rem 0;
 }
 
 .skills {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.collab-section {
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+}
+
+.collab-section h2 {
+  font-size: 2.8rem;
+}
+
+.collab-section p {
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.collab-section a {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.row-one {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 3rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.row-two {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.row-two button {
+  float: right;
 }
